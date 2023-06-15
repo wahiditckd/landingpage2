@@ -1,8 +1,12 @@
-import Image from 'next/image'
+import { Banner, Header, Listlogo, Arrivals } from "@/components";
 
 export default function Home() {
   return (
-    <main className="bg-yellow-300">hello
-
+    <main>
+      <Header />
+      <Banner />
+      <Listlogo />
+      <Arrivals />
     </main>
-  )}
+  );
+}
